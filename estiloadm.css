@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(255, 245, 232);
+    }
+    
+    .block_create {
+    padding: 20px;
+    width: 350px;
+    background-color: rgb(200, 255, 97);
+    }
+    
+    .block_update {
+    padding: 20px;
+    width: 350px;
+    background-color: rgb(255, 142, 36);
+    }
+    
+    .block_read {
+    padding: 20px;
+    width: 350px;
+    background-color: rgb(107, 194, 251);
+    }
+    
+    .block_delete {
+    padding: 20px;
+    width: 350px;
+    background-color: rgb(255, 69, 36);
+    }

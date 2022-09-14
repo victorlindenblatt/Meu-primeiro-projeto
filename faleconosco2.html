@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Start Notes </title>
+<meta charset="utf-8"/>
+
+<link rel="stylesheet" href="style.css"/>
+<script src="validador.js"></script>
+  </head>
+
+
+<body>
+<header>
+  <h2>START NOTES</h2>
+</header>
+
+  <menu>
+  
+    <p><a href="index.html">Página principal</a></p>
+    <p><a href="Sobre.html">Sobre</a></p>
+    <p><a href="faleconosco2.html">Fale conosco</a></p>
+  
+  </menu>
+
+  <form class="formatofalacomigo" action="php/php.php"> <!--Formulário Fale comigo-->
+    <div class="formulario">
+        <h5 id="Principal">- Fale conosco -</h5>
+        <br><br>
+            
+      
+      <label for="nome" >Nome:</label><br>
+      <input type="text" id="nome" name="nome"/><br>
+      <div class="erro" id="nome-erro"></div>
+      <br>
+      <label for="email" >Email:</label><br>
+      <input type="text" id="email" name="email" /><br>
+      <div class="erro" id="email-erro"></div>
+      <br>
+      <label for="celular" >Celular:</label><br>
+      <input type="text" id="celular" name="celular" required /><br>
+      <div class="erro" id="celular-erro"></div>
+      <br>
+      
+      Digite sua mensagem:<br/>
+      <textarea name="mensagem" cols="50" rows="10" id="mensagem" placeholder="escreva aqui..."></textarea>
+      <div class="erro" id="mensagem-erro"></div>
+      <br><br>
+
+      <input type="submit" value="Enviar" onClick="return validar()" />
+      </form>
+      
+
+
+<footer>CONTATOS 
+  <p style="color: blue;">whatsapp: (21)9842-7208 </p>
+  <p><a href="https://www.youtube.com/channel/UCCoM2OYSOpxVSMg1hulFC5Q/featured">youtube</a>          
+  <p><a href="https://www.linkedin.com/in/victorlindenblatt/">linkedin</a>           
+</footer>
+
+  </body>
+</html>
